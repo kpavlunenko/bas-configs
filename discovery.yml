@@ -1,0 +1,13 @@
+server:
+  port: 8761
+  application:
+    name: discovery
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-repository: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+  hostname: localhost
