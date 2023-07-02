@@ -11,7 +11,7 @@ spring:
       name: gateway-service
       discovery:
         enabled: true
-        service-id: config
+        service-id: config-server
     gateway:
       discovery:
         locator:
