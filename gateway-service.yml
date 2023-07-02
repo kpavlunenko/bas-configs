@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: gateway-servicee
+    name: gateway-service
 
 eureka:
   client:
