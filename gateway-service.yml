@@ -6,6 +6,11 @@ server:
 spring:
   application:
     name: gateway-service
+    cloud:
+      gateway:
+        discovery:
+          locator:
+            enabled: true
 
 eureka:
   client:
