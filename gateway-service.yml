@@ -3,6 +3,10 @@ server:
   application:
     name: gateway-service
 
+spring:
+  application:
+    name: gateway-servicee
+
 eureka:
   client:
     region: default
